@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento Produções</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Gill Sans', sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            padding: 40px 20px;
+            background-color: #0a3d62;
+        }
+        .logo {
+            width: 250px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 10px 0;
+        }
+        h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-weight: normal;
+            font-size: 28px; /* Reduzi o tamanho */
+        }
+        .service {
+            width: 40%;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 0; /* Sem cantos arredondados */
+            transition: transform 0.3s ease-in-out;
+            letter-spacing: 0.5px;
+            text-align: left;
+        }
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        /* Cores específicas */
+        .service.sons-do-zezere {
+            background-color: #87005A; /* Rosa mais escuro */
+            color: #fff;
+        }
+        .service.dj-valelo {
+            background-color: #004020; /* Verde ainda mais escuro */
+            color: #fff;
+        }
+        .service.animacao-infantil {
+            background-color: #F9E316; /* Amarelo mais claro */
+            color: #333;
+        }
+        .service.neutra {
+            background-color: #4a4a4a; /* Cor neutra mais clara que o fundo */
+            color: #fff;
+        }
+
+        .social-section {
+            margin-top: 40px;
+        }
+        .social-section h2 {
+            margin-bottom: 20px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .social-links a {
+            text-decoration: none;
+            font-size: 18px;
+            padding: 15px 30px;
+            border-radius: 8px;
+            color: white;
+            transition: transform 0.3s, opacity 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .tiktok { background-color: #000; }
+        .youtube { background-color: #FF0000; }
+        .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .facebook { background-color: #1877F2; }
+        .social-links a:hover {
+            opacity: 0.85;
+            transform: scale(1.1);
+        }
+        footer {
+            padding: 20px;
+            background-color: #0a3d62;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Bento Produções" class="logo">
+        <h2>Para além da produção</h2>
+    </header>
+    
+    <div class="container">
+        <div class="service sons-do-zezere">
+            <h2>Sons do Zêzere</h2>
+            <p>Espetáculo de animação musical com música popular e interação com o público. Ideal para festas e eventos especiais.</p>
+        </div>
+
+        <div class="service dj-valelo">
+            <h2>Valelo - O DJ mais Serrano</h2>
+            <p>Show visual inesquecível com sets musicais eletrizantes e efeitos especiais, proporcionando uma experiência única.</p>
+        </div>
+
+        <div class="service animacao-infantil">
+            <h2>Marisa Marques - Animação Infantil</h2>
+            <p>Programação lúdica e educativa para crianças, com atividades interativas e diversão garantida.</p>
+        </div>
+
+        <div class="service neutra">
+            <h2>Produção de Eventos</h2>
+            <p>Organização e execução de eventos personalizados, desde pequenas celebrações a grandes conferências.</p>
+        </div>
+
+        <div class="service neutra">
+            <h2>Captação Audiovisual</h2>
+            <p>Fotografia e vídeo para casamentos, eventos institucionais e projetos de branding, capturando momentos eternos.</p>
+        </div>
+
+        <div class="service neutra">
+            <h2>Estratégia de Marketing e Redes Sociais</h2>
+            <p>Gestão de conteúdo digital, aumentando a visibilidade e impacto da sua marca online.</p>
+        </div>
+
+        <div class="service neutra">
+            <h2>Comunicação Gráfica e Impressão</h2>
+            <p>Design gráfico e impressão de alta qualidade para fortalecer a identidade visual da sua empresa.</p>
+        </div>
+
+        <div class="service neutra">
+            <h2>Palco Móvel</h2>
+            <p>Infraestrutura versátil para a realização de eventos em qualquer local, adaptável às suas necessidades.</p>
+        </div>
+
+        <div class="social-section">
+            <h2>Conheça o nosso Trabalho</h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/people/Sons-do-Z%C3%AAzere/100095447534094/?mibextid=wwXIfr&rdid=6M94EDyVDcFoDC0z&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18UzsdhJKj%2F%3Fmibextid%3DwwXIfr" class="facebook" target="_blank">Facebook</a>
+                <a href="https://www.youtube.com/@valelo9631" class="youtube" target="_blank">YouTube</a>
+                <a href="https://www.instagram.com/_.valelo._/?igsh=MTh1bnE4cDAwZ3ZvOA%3D%3D&utm_source=qr#" class="instagram" target="_blank">Instagram</a>
+                <a href="https://www.tiktok.com/@__valelo__?_t=ZN-8tprehhvbMc&_r=1" class="tiktok" target="_blank">TikTok</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contacte-nos: 936231940 | 934421755 | bentoproducoes1@gmail.com</p>
+        <p>&copy; 2025 Bento Produções. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
